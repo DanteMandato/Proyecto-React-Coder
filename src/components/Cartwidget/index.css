@@ -1,0 +1,7 @@
+.car-widget {
+    position: relative;
+}
+
+.car-widget__cart {
+    font-size: 35px;
+}
