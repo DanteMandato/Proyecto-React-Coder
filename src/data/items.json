@@ -1,0 +1,122 @@
+[
+    {
+    "id": 1,
+    "category": "Higiene",
+    "licence": "Higiene",
+    "name": "Shampoo Sólido Cabello Normal",
+    "description": "Shampoo sólido para cabello normal. Limpia y nutre tu cabello de manera efectiva.",
+    "img": "/Products/shampoo-solido-normal.jpg",
+    "price": 199.99,
+    "dues": 3,                                                                                    
+    "stock": 50,                                                                                            
+    "sells": 20
+    },
+    {
+    "id": 2,
+    "category": "Higiene",
+    "licence": "Higiene",
+    "name": "Shampoo Sólido Cabello Seco",
+    "description": "Shampoo sólido para cabello seco. Hidrata y revitaliza tu cabello.",
+    "img": "/Products/shampoo-solido-seco.jpg",
+    "price": 199.99,
+    "dues": 3,
+    "stock": 50,
+    "sells": 15
+    },
+    {
+    "id": 3,
+    "category": "Higiene",
+    "licence": "Higiene",
+    "name": "Shampoo Sólido Cabello Graso",
+    "description": "Shampoo sólido para cabello graso. Limpia en profundidad y controla la grasa.",
+    "img": "/Products/shampoo-solido-graso.jpg",
+    "price": 199.99,
+    "dues": 3,
+    "stock": 50,
+    "sells": 25
+    },
+    {
+    "id": 4,
+    "category": "Higiene",
+    "licence": "Higiene",
+    "name": "Acondicionador Sólido",
+    "description": "Acondicionador sólido que hidrata y suaviza el cabello, dejando un acabado sedoso.",
+    "img": "/Products/acondicionador.jpg",
+    "price": 199.99,
+    "dues": 3,
+    "stock": 50,
+    "sells": 18
+    },
+    {
+    "id": 5,
+    "category": "Higiene",
+    "licence": "Higiene",
+    "name": "Agua Micelar",
+    "description": "Agua micelar para una limpieza suave y eficaz del rostro. Remueve impurezas y maquillaje.",
+    "img": "/Products/agua-micelar.jpg",
+    "price": 299.99,
+    "dues": 3,
+    "stock": 50,
+    "sells": 30
+    },
+    {
+    "id": 8,
+    "category": "Higiene",
+    "licence": "Higiene",
+    "name": "Desodorante",
+    "description": "Desodorante eficaz y duradero que mantiene tu frescura durante todo el día.",
+    "img": "/Products/desodorante.jpg",
+    "price": 149.99,
+    "dues": 3,
+    "stock": 50,
+    "sells": 25
+    },
+    {
+    "id": 9,
+    "category": "Higiene",
+    "licence": "Higiene",
+    "name": "Gel Contorno de Ojos",
+    "description": "Gel especializado para el contorno de los ojos. Reduce la apariencia de ojeras y bolsas.",
+    "img": "/Products/gel-contorno-ojos.jpg",
+    "price": 249.99,
+    "dues": 3,
+    "stock": 50,
+    "sells": 18
+    },
+    {
+    "id": 10,
+    "category": "Higiene",
+    "licence": "Higiene",
+    "name": "Serum Facial",
+    "description": "Serum facial que hidrata y revitaliza la piel, proporcionando un aspecto radiante.",
+    "img": "/Products/serum-facial.jpg",
+    "price": 349.99,
+    "dues": 3,
+    "stock": 50,
+    "sells": 20
+    },
+    {
+    "id": 11,
+    "category": "Higiene",
+    "licence": "Higiene",
+    "name": "Tónico Facial",
+    "description": "Tónico facial que equilibra el pH de la piel y prepara el rostro para la hidratación.",
+    "img": "/Products/tonico-facial.jpg",
+    "price": 299.99,
+    "dues": 3,
+    "stock": 50,
+    "sells": 25
+    },
+    {
+    "id": 12,
+    "category": "Higiene",
+    "licence": "Higiene",
+    "name": "Gel de Limpieza Facial",
+    "description": "Gel limpiador facial que elimina impurezas y maquillaje, dejando la piel fresca.",
+    "img": "/Products/gel-limpieza-facial.jpg",
+    "price": 199.99,
+    "dues": 3,
+    "stock": 50,
+    "sells": 28
+    }
+]

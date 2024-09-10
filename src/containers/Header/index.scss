@@ -7,25 +7,27 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-}
 
-.navbar__menu {
+    &__menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 16px;
-}
+    }
 
-.navbar__item {
-    padding:.6px;
-    transition: all .3s linear;
+    &__item {
+    padding: 0.6px;
+    transition: all 0.3s linear;
     cursor: pointer;
-}
-.navbar__item:hover {
-    background-color: rgba(223, 168, 81, 0.89);
-    color: aliceblue;
-    border-radius: 8px;
-}
-.navbar__link {
-    font-size: 1em;
+
+    &:hover {
+        background-color: rgba(223, 168, 81, 0.89);
+        color: aliceblue;
+        border-radius: 8px;
+    }
+
+    &--cart {
+        font-size: 1em;
+    }
+    }
 }

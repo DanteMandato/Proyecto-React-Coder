@@ -1,0 +1,16 @@
+/* Global Styles */
+@import './styles/variables.scss';
+@import './styles/reset.scss';
+@import './styles/shared.scss';
+@import './styles/mixins.scss';
+
+
+/* Containers */
+@import './containers/Header/index.scss';
+@import './containers/ItemList/index.scss';
+/* Components*/
+@import './components/Pill/index.scss';
+@import './components/LinkButton/index.scss';
+@import './components/ItemDetail/index.scss';
+@import './components/Item/index.scss';
+
