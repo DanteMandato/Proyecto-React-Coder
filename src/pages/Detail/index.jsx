@@ -4,13 +4,17 @@ import ItemDetail from "../../components/ItemDetail";
 
 const Detail = () => {
     const { id } = useParams();
-    let [ item, setItem ] = useState(null);
+    const [item, setItem] = useState(null);
 
     useEffect(() => {
-        fetch(`/src/data/items.json`)
-        .then(res => res.json())
-        .then(data => setItem(data.find(item => item.id == id)))
-    }, []);
+        fetch('/src/data/items.json')
+            .then(res => res.json())
+            .then(data => setItem(data.find(item => item.id === id)));
+    }, [id]);
+
+    if (!item) {
+        return <div>Loading...</div>;
+    }
 
     return <ItemDetail {...item} />;
 }

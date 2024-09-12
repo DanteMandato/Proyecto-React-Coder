@@ -1,9 +1,15 @@
-import React from "react";
+import { useNavigate } from "react-router-dom";
 
-const ItemDetail = ({ name, img, price, description, category}) => {
+const ItemDetail = ({ name, img, price, description, category }) => {
+    const navigate = useNavigate();
+
+    const handleBack = () => {
+        navigate(-1);
+    };
+
     return (
         <section className="item-detail">
-            <button onClick={onBack}>Volver a la tienda</button>
+            <button onClick={handleBack}>Volver a la tienda</button>
             <picture className="item-detail__picture">
                 <img className="item__picture item__picture--img" src={`/public/${img}`} alt={`${name}`} />
             </picture>

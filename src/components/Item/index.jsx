@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Item = ({ name, img, price, category, dues, href = '#', tag }) => {
+const Item = ({ name, img, price, category, dues, id }) => {
 
     return (
         <article className="item">

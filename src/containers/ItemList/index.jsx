@@ -1,44 +1,37 @@
 import React, { useEffect, useState } from 'react';
 import Item from '../../components/Item';  
 
-const ItemList = () => {
+const ItemList = ({ category }) => {
     const [items, setItems] = useState([]);
-    const [error, setError] = useState(null); 
+    const [error, setError] = useState(null);
+    console.log(category);
 
     useEffect(() => {
-        fetch('/src/data/items.json')  
-            .then(response => {
-                if (!response.ok) {
+        fetch('/src/data/items.json')
+            .then(res => {
+                if (!res.ok) {
                     throw new Error('Network response was not ok');
                 }
-                return response.json();
+                return res.json();
             })
-            .then(data => setItems(data))
-            .catch(error => setError(error)); 
-    }, []);
+            .then(data => {
+                if (category) {
+                    setItems(data.filter(item => item.category === category));
+                } else {
+                    setItems(data);
+                }
+            })
+            .catch(err => setError(err)); 
+    }, [category]);
 
     if (error) {
         return <div>Error: {error.message}</div>;
     }
 
     return (
-        <div className="items__container">
-            {items.length > 0 ? (
-                items.map(item => (
-                    <Item 
-                        key={item.id}
-                        name={item.name}
-                        img={item.img}
-                        price={item.price}
-                        category={item.category}
-                        dues={item.dues}
-                        tag={item.tag}
-                    />
-                ))
-            ) : (
-                <div>No items found</div>
-            )}
-        </div>
+        <section className="items__container container">
+            {items.map((item, i) => <Item key={`item-${i}`} {...item} tag="NUEVO"/>)}
+        </section>
     );
 };
 
