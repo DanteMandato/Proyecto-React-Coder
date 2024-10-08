@@ -2,14 +2,14 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
-// Your web app's Firebase configuration
+// Your web app's Firebase configuration using environment variables
 const firebaseConfig = {
-    apiKey: "AIzaSyB4QiK-DZtlBKKimukdBq6Jy8p3nA7EQ8M",
-    authDomain: "ch-ecommerce-react.firebaseapp.com",
-    projectId: "ch-ecommerce-react",
-    storageBucket: "ch-ecommerce-react.appspot.com",
-    messagingSenderId: "882119253582",
-    appId: "1:882119253582:web:530a0e1284fa25f4dded1f"
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+    authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+    projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+    storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+    appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
 
 // Initialize Firebase
