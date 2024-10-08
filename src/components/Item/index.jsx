@@ -5,8 +5,8 @@ const Item = ({ name, img, price, category, dues, id }) => {
     return (
         <article className="item">
             <Link to={`/detalle/${id}`} >
+                    <span className="item__pill">NUEVO</span>
                 <picture className="item__picture">
-                <span className="item__picture--pill">NUEVO</span>
                     <img className="item__picture item__picture--img" src={`/public/${img}`} alt={`${name}`} />
                 </picture>
                 <div className="item__info">

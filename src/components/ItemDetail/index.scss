@@ -2,12 +2,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 377px;
-    margin: 50px auto;
+    background: $bg_item;
+    max-width: 360px;
+    margin: 40px auto;
 
     &__img {
         width: 100%;
@@ -35,7 +36,7 @@
 
         &--dues {
             padding: 10px;
-            color: crimson;
+            color: $red;
             font-size: 16px;
             margin-bottom: 10px;
         }
@@ -43,6 +44,7 @@
         &--description {
             font-size: 16px;
             margin-bottom: 20px;
+            border-bottom: 3px solid #cfcfcf;
         }
     }
 
@@ -63,7 +65,7 @@
                 margin-bottom: 10px;
 
                 .button {
-                    background-color: #f0f0f0;
+                    background-color: $buttons;
                     border: 1px solid #ccc;
                     border-radius: 4px;
                     padding: 10px;
@@ -78,8 +80,8 @@
             }
 
             .button {
-                background-color: blanchedalmond;
-                color: #000000;
+                background-color: $buttons;
+                color: $black;
                 border: none;
                 border-radius: 4px;
                 padding: 10px 20px;

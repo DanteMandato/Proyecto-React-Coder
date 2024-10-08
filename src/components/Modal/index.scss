@@ -1,0 +1,51 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__content {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        max-width: 400px;
+        width: 100%;
+
+        h3 {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+
+            input {
+                width: 100%;
+                padding: 8px;
+                margin-top: 5px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+        }
+
+        button {
+            margin-top: 10px;
+            background-color: $buttons;
+            color: $black;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 4px;
+
+            &:hover {
+                background-color: $buttons;
+            }
+        }
+    }
+}

@@ -1,6 +1,6 @@
 .header {
-    background-color: blanchedalmond;
-    color: black;
+    background-color: $bg;
+    color: $black;
     padding: 20px;
 }
 
@@ -21,8 +21,8 @@
     cursor: pointer;
 
     &:hover {
-        background-color: rgba(223, 168, 81, 0.89);
-        color: aliceblue;
+        background-color: $bg_hover1;
+        color: $black;
         border-radius: 8px;
     }
 

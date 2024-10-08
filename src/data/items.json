@@ -1,7 +1,7 @@
 [
     {
     "id": 1,
-    "category": "Higiene",
+    "category": "Cabello",
     "licence": "Higiene",
     "name": "Shampoo Sólido Cabello Normal",
     "description": "Shampoo sólido para cabello normal. Limpia y nutre tu cabello de manera efectiva.",
@@ -13,7 +13,7 @@
     },
     {
     "id": 2,
-    "category": "Higiene",
+    "category": "Cabello",
     "licence": "Higiene",
     "name": "Shampoo Sólido Cabello Seco",
     "description": "Shampoo sólido para cabello seco. Hidrata y revitaliza tu cabello.",
@@ -25,7 +25,7 @@
     },
     {
     "id": 3,
-    "category": "Higiene",
+    "category": "Cabello",
     "licence": "Higiene",
     "name": "Shampoo Sólido Cabello Graso",
     "description": "Shampoo sólido para cabello graso. Limpia en profundidad y controla la grasa.",
@@ -37,7 +37,7 @@
     },
     {
     "id": 4,
-    "category": "Higiene",
+    "category": "Cabello",
     "licence": "Higiene",
     "name": "Acondicionador Sólido",
     "description": "Acondicionador sólido que hidrata y suaviza el cabello, dejando un acabado sedoso.",
@@ -49,7 +49,7 @@
     },
     {
     "id": 5,
-    "category": "Higiene",
+    "category": "Facial",
     "licence": "Higiene",
     "name": "Agua Micelar",
     "description": "Agua micelar para una limpieza suave y eficaz del rostro. Remueve impurezas y maquillaje.",
@@ -61,7 +61,7 @@
     },
     {
     "id": 8,
-    "category": "Higiene",
+    "category": "Cuerpo",
     "licence": "Higiene",
     "name": "Desodorante",
     "description": "Desodorante eficaz y duradero que mantiene tu frescura durante todo el día.",
@@ -73,7 +73,7 @@
     },
     {
     "id": 9,
-    "category": "Higiene",
+    "category": "Facial",
     "licence": "Higiene",
     "name": "Gel Contorno de Ojos",
     "description": "Gel especializado para el contorno de los ojos. Reduce la apariencia de ojeras y bolsas.",
@@ -85,7 +85,7 @@
     },
     {
     "id": 10,
-    "category": "Higiene",
+    "category": "Facial",
     "licence": "Higiene",
     "name": "Serum Facial",
     "description": "Serum facial que hidrata y revitaliza la piel, proporcionando un aspecto radiante.",
@@ -97,7 +97,7 @@
     },
     {
     "id": 11,
-    "category": "Higiene",
+    "category": "Facial",
     "licence": "Higiene",
     "name": "Tónico Facial",
     "description": "Tónico facial que equilibra el pH de la piel y prepara el rostro para la hidratación.",
@@ -109,7 +109,7 @@
     },
     {
     "id": 12,
-    "category": "Higiene",
+    "category": "Facial",
     "licence": "Higiene",
     "name": "Gel de Limpieza Facial",
     "description": "Gel limpiador facial que elimina impurezas y maquillaje, dejando la piel fresca.",
