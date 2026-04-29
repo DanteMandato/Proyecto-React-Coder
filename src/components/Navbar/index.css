@@ -1,0 +1,31 @@
+.header {
+    background-color: blanchedalmond;
+    color: black;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.navbar__item {
+    padding:.6px;
+    transition: all .3s linear;
+    cursor: pointer;
+}
+.navbar__item:hover {
+    background-color: rgba(223, 168, 81, 0.89);
+    color: aliceblue;
+    border-radius: 8px;
+}
+.navbar__link {
+    font-size: 1em;
+}

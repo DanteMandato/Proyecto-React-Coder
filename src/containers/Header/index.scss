@@ -1,0 +1,33 @@
+.header {
+    background-color: $bg;
+    color: $black;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+    &__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    }
+
+    &__item {
+    padding: 0.6px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $bg_hover1;
+        color: $black;
+        border-radius: 8px;
+    }
+
+    &--cart {
+        font-size: 1em;
+    }
+    }
+}
